@@ -25,3 +25,28 @@ Questions:
 ->API for signle result
 ->get params from URL in next.js route
 ->Filter result from array.
+
+*Call Next Js APIs
+-------------------
+->Make Routes for screen.
+->call User List API
+->Display data.
+->Call User details API
+->Display User Data
+
+
+*Write Post API:
+-----------------
+->Make Post API function
+->Write API response
+->Get Request params
+->Apply Validatin checks
+->Test Post With Postman
+
+*Integrate POST API:
+---------------------
+->Make New Page Route
+->Make a form and add Input fields
+->Define State for Input fields
+->Write code for call API
+->Handle API response

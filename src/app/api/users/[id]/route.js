@@ -8,6 +8,6 @@ export  async function GET(request,{params}){
    return NextResponse.json(
         userData.length === 0
             ? { result: "No data found", success: false }
-            : { data: userData, success: true }
+            : { result: userData[0], success: true }
         );
 }
