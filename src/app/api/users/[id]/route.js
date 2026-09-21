@@ -1,0 +1,13 @@
+import { user } from "@/app/util/db";
+import { NextResponse } from "next/server";
+
+export  async function GET(request,{params}){
+    const {id} = await params
+    const data = user;
+    const userData = data.filter(item=>item.id == id)
+   return NextResponse.json(
+        userData.length === 0
+            ? { result: "No data found", success: false }
+            : { data: userData, success: true }
+        );
+}

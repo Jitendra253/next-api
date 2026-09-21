@@ -8,3 +8,20 @@
 -----------
 ->Make to make API route with Next.js
 ->Use of API Route in Next.js? 
+
+
+*GET API with Static Data:
+--------------------------
+->API for user detail and user List.
+->Make a static db file.
+->Make user list API
+->Make a Route for single user API
+->Get Request params
+->Filter result and test API
+
+Questions:
+--------------
+->How to make API with next.js API Routes
+->API for signle result
+->get params from URL in next.js route
+->Filter result from array.
