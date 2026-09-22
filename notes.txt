@@ -105,3 +105,32 @@ Questions:
 ->Make Schema for collection
 ->get data from MongoDB to next js
 ->Make sample API with DB Data
+
+*Save Data in DB With Post API:
+-------------------------------
+->Make Function for Post API.
+->Write code for saving data.
+->Get data from API Request
+->Save Product data in MongoDB.
+->Test API with postman.
+
+*Integrated add Product with API:
+------------------------------------
+->Make Link and page to add the Product
+->Make input fields for adding products
+->Use state to get input field data
+->Call API to add products
+->Test API and data in MongoDB collection.
+
+*Product List With MongoDB:
+----------------------------
+->Make  Link and page for the product List
+->Re-create Product List API
+->Get Product on Api with API
+->Display Product List
+
+*PUT API (update) MongoDB:
+---------------------------
+->Make a new API Route for PUT method
+->write code for updating the product
+->Test API with post man
