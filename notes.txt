@@ -50,3 +50,17 @@ Questions:
 ->Define State for Input fields
 ->Write code for call API
 ->Handle API response
+
+*PUT API with Static Data:
+-------------------------------
+->Use of Put method API
+->write put method in Route Api file
+->GET URL params and payload
+
+*Integrate PUT API:
+--------------------
+->Make New Route for PUT API
+->Make Link from user List Page
+->Create from and define the State
+->Get current user details
+->Update details and call API

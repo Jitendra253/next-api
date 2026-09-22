@@ -11,3 +11,15 @@ export  async function GET(request,{params}){
             : { result: userData[0], success: true }
         );
 }
+
+export async function PUT(request,content){
+    let payload = await request.json();
+    const { id } = await content.params;
+    payload.id = id
+    console.log(payload);
+    if(!payload.id || !payload.name || !payload.age || !payload.email){
+        return NextResponse.json({result:"request datais not valid",success:false},{status:400})
+    }
+    return NextResponse.json({result:payload,success:true},{status:200})
+
+}
