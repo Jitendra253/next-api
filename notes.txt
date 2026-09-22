@@ -83,3 +83,25 @@ Questions:
 ->What does mean by catch-all routes?
 ->Make Route.
 ->Write code for catch-all Route API.
+
+
+*How to use MongoDB atlas:
+----------------------------
+->Make an account Mongodb atlas
+->Make project and cluster
+->Make a database and collection
+->Add data in collection.
+
+Questions:
+-----------
+->What is the cluster in MongoDB
+->What is collection
+->What is MongoDB atlas
+
+*Connect MongoDB and Next.js
+------------------------------
+->Make and env file and add username and password
+->Make DB connection
+->Make Schema for collection
+->get data from MongoDB to next js
+->Make sample API with DB Data
