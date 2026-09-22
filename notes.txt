@@ -64,3 +64,22 @@ Questions:
 ->Create from and define the State
 ->Get current user details
 ->Update details and call API
+
+*Make Delete API:
+-----------------
+->Make API Route function
+->Get Id from URL
+->Write code for Delete API
+
+*Integrate Delete API:
+----------------------
+->Make Component for Delete User.
+->Why need to Delete Component
+->Call Delete API method
+->Test API with UI
+
+*Catch All API Routes:
+-----------------------
+->What does mean by catch-all routes?
+->Make Route.
+->Write code for catch-all Route API.

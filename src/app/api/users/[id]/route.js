@@ -23,3 +23,13 @@ export async function PUT(request,content){
     return NextResponse.json({result:payload,success:true},{status:200})
 
 }
+
+export async function DELETE(reques,content){
+    const {id} = await content.params;
+    if(id){
+        return NextResponse.json({result:"User Deleted",success:true},{status:200})
+    }
+    else{
+        return NextResponse.json({result:"Internal Error, Please try after some time",success:false},{status:400})
+    }
+}

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import "./../style.css"
+import DeleteUser from "../util/DeleteUser";
 async function getUsers() {
     let data = await fetch("http://localhost:3000/api/users");
     data = await data.json();
@@ -20,6 +21,9 @@ export default async function Page(){
                         <Link href={`/users/${user.id}`}> {user.name} </Link>
                         <span>
                             <Link href={`/users/${user.id}/update`}>  Edit  </Link>
+                        </span>
+                        <span>
+                            <DeleteUser id={user.id}/>
                         </span>
                     </h2>
                     </div>
