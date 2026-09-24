@@ -134,3 +134,20 @@ Questions:
 ->Make a new API Route for PUT method
 ->write code for updating the product
 ->Test API with post man
+
+*Populate Form data with API:
+------------------------------
+->make API toget a single Record
+->Make Route for editing the product
+->Add Input Fields for edit product
+->Declare state for adding values in Input fields
+->Call API and display Data
+->Test Api with Postman
+
+*Deleta API With MongoDB:
+-------------------------
+->Make API in delete product
+->Test API with postman
+->Integrate Delete API with UI
+->Add no cache in GET API
+->Add data with mongodb
